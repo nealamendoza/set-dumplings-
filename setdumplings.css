@@ -1,10 +1,34 @@
-font-family: 'Life Savers', cursive;
-
 body{
     background-image: url("images/bg.png");
+    background-color: #FFF3B0; /* yellow to fill in spaces*/
+    background-size: contain; /* show the whole image */
+    font-family: 'Life Savers', cursive;
+    color: #335C67; /* blue font color */
+}
+
+.banner{
+    background-color: #E09F3E; /* orange */
 }
 
 .page{
     background-color: white;
+    width: 60%;
+    margin: auto;
 }
 
+.scene{
+    border-color: 5px solid #335C67; /* blue */
+    width: 500;
+}
+
+button{
+    background-color: #E09F3E; /* orange */
+    /* make border same as background color */
+    /* add border-radius */
+    color: #335C67; /* blue */
+    font-family: 'Life Savers', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* DROPDOWN */
