@@ -1,3 +1,10 @@
+font-family: 'Life Savers', cursive;
+
 body{
     background-image: url("images/bg.png");
 }
+
+.page{
+    background-color: white;
+}
+
