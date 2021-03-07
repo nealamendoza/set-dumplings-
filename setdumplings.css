@@ -24,12 +24,16 @@ body{
 
 button{
     background-color: #E09F3E; /* orange */
-    /* make border same as background color */
-    /* add border-radius */
+    border: #E09F3E; /* orange */
+    border-radius: 7px;
     color: #335C67; /* blue */
+
     font-family: 'Life Savers', cursive;
     font-size: 25px;
     font-weight: bold;
+    text-align: center;
+
+    box-shadow: 2px 2px #335C67; /* red */
 }
 
 /* DROPDOWN */
