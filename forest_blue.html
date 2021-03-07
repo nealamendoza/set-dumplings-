@@ -25,22 +25,31 @@
     <!--Box to hold picture and text-->
     <div align="center" class="page">
         <br>
-        <img src = "images/city_rain.png" width="500"
+        <img src = "images/forest_blue.png" width="500"
             style="border:5px solid #335C67">
-        <h1>
-            <!-- Text before the dropdown area -->
-            Oh no, it started to rain soy sauce! They see someone with a &nbsp;
-            <!-- The dropdown area -->
-            <span class = "dropdown">
-                <span> _________ umbrella. </span>
-                <div class = "dropdown_content">
-                    <a href = "city_red.html">red</a>
-                    <a href = "city_blue.html">blue</a>
-            </span>
-        </h1>
-
+        <h1>Oh no, it started to rain soy sauce! They see someone with a blue umbrella.</h1>
         <br>
     </div>
 
+
+    <!-- Space between two divs-->
+    <div>
+        <br>
+    </div>
+
+    <!-- JavsScript to redirect on button click -->
+    <script>
+        // javascript to redirect to the next scenario
+        function redirectToEdamameBlue(){
+            location.href = "edamame_blue.html";
+        }
+    </script>
+    <!--Button-->
+    <div align="center">
+        <button type = "submit" onclick = "redirectToEdamameBlue()">
+            Next
+            <img src = "images/dumpling_button.png" width = 30>
+        </button>
+    </div>
 </body>
 </html>
