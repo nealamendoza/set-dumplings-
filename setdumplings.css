@@ -32,3 +32,33 @@ button{
 }
 
 /* DROPDOWN */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #FFF3B0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+.dropdown_content a{
+    color: #335C67; /* dark blue */
+    padding: 12px 16px;
+    text-decoration: none; /* no underline */
+    display: block;
+}
+
+/* Change the color of dropdown links on hover */
+.dropdown_content a:hover{
+  background-color: #E09F3E; /* gold */
+}
