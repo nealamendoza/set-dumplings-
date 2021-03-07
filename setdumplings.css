@@ -1,3 +1,7 @@
+html{
+    height: 100%;
+}
+
 body{
     background-image: url("images/bg.png");
     background-color: #FFF3B0; /* yellow to fill in spaces*/
