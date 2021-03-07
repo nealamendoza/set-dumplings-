@@ -10,6 +10,10 @@ body{
     color: #335C67; /* blue font color */
 }
 
+table{
+    margin: auto;
+}
+
 .banner{
     background-color: #E09F3E; /* orange */
 }
