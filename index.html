@@ -27,14 +27,14 @@
 
     <!-- Table to show the different stories -->
     <table>
-        <tr> <!-- row -->
-            <td> <!-- column 1 -->     
+        <tr> <!-- row 1 -->
+            <td> <!-- row 1 column 1 -->     
                 <!--Box to hold picture and text-->
                 <div align="center" class="page">
                     <br>
                     <img class="scene" src = "images/cover/cover_1.png" width="250"
                         style="border:5px solid #335C67">
-                    <h1>Choose an adventure set for "Helping Sum-one"</h1>
+                    <h1>Helping Sum-one</h1>
                     <br>
                     <!-- JavaScript to redirect on button click -->
                     <script>
@@ -54,13 +54,13 @@
                 </div> <!-- Story div -->
             </td>
 
-            <td> <!-- column 2 -->     
+            <td> <!-- row 1 column 2 -->     
                 <!--Box to hold picture and text-->
                 <div align="center" class="page">
                     <br>
-                    <img class="scene" src = "images/steamer.png" width="250"
+                    <img class="scene" src = "images/cover/cover_2.png" width="250"
                         style="border:5px solid #335C67">
-                    <h1>Choose the adventure set for "Soup-er Dumplings"</h1>
+                    <h1>Hungry Dumplings</h1>
                     <br>
 
                      <!-- JavaScript to redirect on button click -->
@@ -81,6 +81,63 @@
                 </div> <!-- Story div -->
             </td>
         </tr>
+
+        <tr> <!-- row 2 -->
+            <td> <!-- row 2 column 1 -->     
+                <!--Box to hold picture and text-->
+                <div align="center" class="page">
+                    <br>
+                    <img class="scene" src = "images/cover/cover_3.png" width="250"
+                        style="border:5px solid #335C67">
+                    <h1>Donut Sit With Us</h1>
+                    <br>
+                    <!-- JavaScript to redirect on button click -->
+                    <script>
+                        // javascript to redirect to the next scenario
+                        function redirectToFirstStory(){
+                            location.href = "index.html";
+                        }
+                    </script>
+                    <!--Button-->
+                    <div align="center">
+                        <button type = "submit" onclick = "redirectToFirstStory()"
+                            style="width: 60%;">
+                            Tap here to begin your adventure
+                        </button>
+                    </div> <!-- Button div -->
+                    <br>
+                </div> <!-- Story div -->
+            </td>
+
+            <td> <!-- row 2 column 2 -->     
+                <!--Box to hold picture and text-->
+                <div align="center" class="page">
+                    <br>
+                    <img class="scene" src = "images/cover/cover_4.png" width="250"
+                        style="border:5px solid #335C67">
+                    <h1>Soup-er Dumplings</h1>
+                    <br>
+
+                     <!-- JavaScript to redirect on button click -->
+                     <script>
+                        // javascript to redirect to the next scenario
+                        function redirectToFourthStory(){
+                            location.href = "index.html";
+                        }
+                    </script>
+
+                    <!--Button-->
+                    <div align="center">
+                        <button type = "submit" onclick = "redirectToSecondStory()"
+                            style="width: 60%;">
+                            Coming soon!
+                        </button>
+                    </div> <!-- Button div -->
+                    <br>
+                </div> <!-- Story div -->
+            </td>
+        </tr>
+
     </table>
 
     <!-- Space between two divs-->
