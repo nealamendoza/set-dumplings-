@@ -10,15 +10,27 @@
           href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Life+Savers&display=swap"
           rel="stylesheet">
+
+    <!-- Reuse HTML -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#banner').load('banner.html');
+        });
+    </script>
 </head>
 
 <body>
     <!-- Banner -->
+    <div class="banner" id="banner"></div>
+
+    <!--
     <div class="banner">
         <a href="index.html">
         <img src = "images/banner_logo.png" width="150">
         </a>
     </div>
+    -->
 
     <!-- Space between two divs-->
     <!--
