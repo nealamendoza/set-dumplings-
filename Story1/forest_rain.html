@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel = "stylesheet" type = "text/css" href = "setdumplings.css">
+    <link rel = "stylesheet" type = "text/css" href = "../setdumplings.css">
     <title>Set Dumplings</title>
 
     <!--Font-->
@@ -10,14 +10,19 @@
           href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Life+Savers&display=swap"
           rel="stylesheet">
+
+    <!-- Reuse HTML -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#banner').load('banner2.html');
+        });
+    </script>
 </head>
+
 <body>
     <!-- Banner -->
-    <div class="banner">
-        <a href="index.html">
-        <img src = "images/banner_logo.png" width="150">
-        </a>
-    </div>
+    <div class="banner" id="banner"></div>
 
     <!-- Space between two divs-->
     <div>
@@ -27,7 +32,7 @@
     <!--Box to hold picture and text-->
     <div align="center" class="page">
         <br>
-        <img src = "images/forest_rain.png" width="500"
+        <img src = "../images/forest_rain.png" width="90%"
             style="border:5px solid #335C67">
         <h1>
             <!-- Text before the dropdown area -->
