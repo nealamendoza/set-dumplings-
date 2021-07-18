@@ -44,6 +44,20 @@ button{
     box-shadow: 2px 2px #4e5253; /* red */
 }
 
+input{
+    background-color: #E09F3E; /* gold */
+    border: #E09F3E; /* gold */
+    border-radius: 7px;
+    color: #335C67; /* blue */
+
+    font-family: 'Life Savers', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+    box-shadow: 2px 2px #4e5253; /* red */
+}
+
 /* DROPDOWN */
 .dropdown {
     position: relative;
