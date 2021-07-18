@@ -2,7 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+       <link rel = "stylesheet" type = "text/css" href = "../setdumplings.css">
+    <title>Set Dumplings</title>
+
+    <!--Font-->
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers&display=swap"
+          rel="stylesheet">
+
+    <!-- Reuse HTML -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#banner').load('../banner2.html');
+        });
+    </script>
 </head>
 <body>
     <!-- Banner -->
@@ -13,10 +28,15 @@
         <br>
     </div>
 
+    <!-- Space between two divs-->
+    <div>
+        <br>
+    </div>
+
     <!--Box to hold picture and text-->
     <div align="center" class="page">
         <br>
-        <img src = "../images/movieUNCOLORED.JPG" width="90%"
+        <img src = "../images/movieUbe.png" width="90%"
             style="border:5px solid #335C67">
         <h1>And they all had a great day together! Remember to be kind to others!</h1>
         <br>
@@ -35,7 +55,7 @@
     </script>
     <!--Button-->
     <div align="center">
-        <button type = "submit" onclick = "redirectEndPage()">
+        <button type = "submit" onclick = "redirectToEndPage()">
             Next
             <img src = "../images/dumpling_button.png" width = "30">
         </button>
